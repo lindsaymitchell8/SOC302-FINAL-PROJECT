@@ -165,10 +165,6 @@ describe(my_dataset)
 ####################################################################################
 ############              PHASE 4: Correlation Matrix                   ############
 ####################################################################################
-# TABLE 2: CONTINGENCY TABLE HERE
-table(my_dataset$partyid, my_dataset$abany)
-
-chisq.test(table(my_dataset$partyid, my_dataset$abany))
 
 # Correlation Matrix Table
 
