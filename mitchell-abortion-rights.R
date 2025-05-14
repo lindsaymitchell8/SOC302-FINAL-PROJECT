@@ -168,8 +168,6 @@ describe(my_dataset)
 
 # Correlation Matrix Table
 
-cor(my_dataset$abany, my_dataset$partyid)
-
 cor(my_dataset)
 
 ####################################################################################
